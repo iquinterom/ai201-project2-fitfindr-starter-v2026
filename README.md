@@ -60,23 +60,39 @@ This app is a outfit suggestion app that the user will ask the agent what they a
 ### `search_listings`
 
 - **What it does:**
+     * Filters the clothing listings by description, size, and price; returns the best matches. 
 - **Inputs:** <!-- name and type each: `max_price` (float), not "a price" -->
+     * description (str)
+     * size (str)
+     * price (float)
 - **Returns:**
+     * Returns the filtered list as a dictionary with the ID, Title, description, size, price
 - **When it has nothing:**
+     * It will return empty or []
 
 ### `suggest_outfit`
 
 - **What it does:**
+     * Suggest outfits pairings between a listing and the user's wardrobe items.
 - **Inputs:**
+     * item (dict of listing: list)
+     * Wardrobe (dict of items: list)
 - **Returns:**
+     * outfit suggestions (1 - 2) with sepecifc wardrobe items
 - **When it has nothing:**
+     * is empty, returns general styling listing because no wardrobe was saved.
 
 ### `create_fit_card`
 
 - **What it does:**
+     * Writes a short social-media style caption about the outfit and items suggested.
 - **Inputs:**
+     * outfit (str)
+     * item (dict)
 - **Returns:**
+     * 2-4 sentences, where the item, description, and price are listed and platform where to purchase them.
 - **When it has nothing:**
+     * empty or helpful message
 
 ---
 
