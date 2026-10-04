@@ -40,7 +40,7 @@
 ## What This Does
 
 <!-- Three or four sentences: what a user asks for, and what they get back. -->
-
+This app is a outfit suggestion app that the user will ask the agent what they are shopping for, the style, size, and price range. FitFinder will search the thirft store and will pick the best match catering to what the user is looking for. It will look into what the user already has in it's wardrobe location and if the wardrobe is empty it will provide advice on where to find that wardrobe. The resulsts will be a short specific caption mentioning the items, price, and platform it is in or what platform they can find it. 
 
 
 ---
